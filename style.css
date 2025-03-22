@@ -1,0 +1,195 @@
+*{
+		font family:Bookman old Style;
+}
+body {
+		background-image:url(gambar/v.jpg);
+		background-repeat:no-repeat;
+		background-size:cover;
+}
+h3,h2,h1{
+		color:white;
+		margin:auto;
+}
+.gfoto {
+	width:100px;
+	height:150px;
+	border:solid 1px;
+	border-radius:0px 10px;
+	border-color:green;
+	box-shadow:2px 2px 2px purple;
+	padding:5px;
+	margin:1px;
+}
+.gfoto:hover{
+	filter:grayscale(100%);
+}
+.gfoto:active{
+	position:fixed;
+	bottom:0;
+	left:50%;
+	width:200px;
+	height:250px;
+}
+#Kerangka{
+	background-color:white;
+	width:80%;
+	padding:5px;
+	margin:auto;
+	box-shadow:5px 5px 5px purple;
+}
+#header{
+	height:150px;
+	background:linear-gradient(to left bottom,red,blue);
+	padding:10px;
+}
+#info{
+	background-color:orange;
+	color:white;
+	margin-top:5px;
+	padding:2px;
+}
+#content{
+	background-color:aqua;
+	min-height:300px;
+	margin-top:5px;
+	padding:2px;
+}
+#footer{
+	background-color:brown;
+	color:white;
+	margin-top:5px;
+	height:50px;
+	padding:2px;
+}
+.footer{
+	text-align:center;
+	font-weight:bold;
+}
+.logo{
+	height:150px;
+	width:auto;
+	filter:drop-shadow(3px 3px 3px white);
+}
+#menu{
+	background-color:green;
+	padding:5px;
+	margin:5px;
+}
+#menu ul{
+	list-style-type:none;
+	padding:2px;
+}
+#menu li{
+	margin-bottom:2px;
+	padding:3px;
+	font-weight:bold;
+	font-size:15pt;
+	background:linear-gradient(yellow,red);
+}
+#menu a{
+	text-decoration:none;
+	color:white;
+}
+#menu li:hover{
+	background:linear-gradient(orange,aqua,orange);
+}
+#menu a:hover{
+	color:black;
+}
+#isi{
+	background-color:orange;
+	padding:5px;
+	margin:5px;
+	min-height:300px;
+}
+ #profil,
+ #jurusan,
+ #extra,
+ #gfoto,
+ #gvideo,
+ #daftar{
+	 display:none;
+ }
+ #jam-digatal{
+	 text-align:center;
+  
+	
+ }
+ 
+#jam-digatal p{
+	font-weight:bold;
+	font-size:14pt;
+	color:white;
+}
+.sambutan{
+	text-align:justify;
+	
+}
+.fotokepsek{
+	width:100px;
+	float:left;
+	shape-outside:circle(70%);
+	margin-right:13px;
+	border-radius:50%;
+	border:1px solid green;
+}
+.t-data{
+	width:100%;
+	border:1px solid black;
+	font-family:arial;
+	font-size:16px;
+}
+.t-data th{
+	border:1px solid black;
+	background-color:grey;
+	color:white;
+}
+
+.t-data td{
+	border:1px solid black;
+	background-color:kuning;
+	color:brown;
+}
+.tombol{
+	border:1px solid white;
+	padding:5px;
+	text-decoration:none;
+	font-weight:bold;
+	color:white;
+	background-color:green;
+	border-radius:5px;
+}
+.tombol:active{
+	background-color:red;
+	color:balck;
+}
+.tombol:hover{
+	color:yellow;
+}
+#d-video{
+	width:100%;
+	min-height:300px;
+	background-color:white;
+	padding:10px;
+}
+.daftar-video{
+	width:150px;
+	height:100px;
+	border:1px solid black;
+	background-color:black;
+}
+.agend{
+	color:white;
+}
+#player1,
+#player2{
+	width:400px;
+	height:auto;
+	border:2px solid white;
+	box-shadow:0px 0px 5px;
+	margin:auto;
+}
+#v1,#v2{
+	text-align:center;
+	padding:30px;
+}
